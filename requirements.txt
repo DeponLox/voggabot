@@ -2,3 +2,12 @@ discord.py
 aiohttp
 websockets
 chardet
+asyncio
+random
+Cybernator
+json
+requests
+PIL
+io
+youtube_dl
+os
