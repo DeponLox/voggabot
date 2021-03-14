@@ -86,3 +86,4 @@ async def clear(ctx, amount = 10):
   deleted = await ctx.message.channel.purge(limit = amount + 1)
 
 token = os.environ.get('BOT_TOKEN')
+bot.run(str(token))
