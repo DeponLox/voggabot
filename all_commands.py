@@ -85,12 +85,6 @@ async def on_ready():
 async def clear(ctx, amount = 10):
   deleted = await ctx.message.channel.purge(limit = amount + 1)
 
-@bot.command()
-async def test(ctx):
-  await ctx.send('''
-  OUVEBOWEY(&*Y&G*o8agf83f23g7iG8G87RG4387R478R8Hyhf*#&ig32F968YG7ggwg3827udbw6fe3wygfiefi7d6eygg7aw8yfgYGWiyuGIygasIYUfuy4gr7f6wefg7if)
-  ''')
-
 token = os.environ.get('BOT_TOKEN')
 
 bot.run(str(token))
