@@ -5,7 +5,5 @@ chardet
 asyncio
 Cybernator
 requests
-PIL
-io
+pillow
 youtube_dl
-os
