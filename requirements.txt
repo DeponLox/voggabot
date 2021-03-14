@@ -3,9 +3,7 @@ aiohttp
 websockets
 chardet
 asyncio
-random
 Cybernator
-json
 requests
 PIL
 io
